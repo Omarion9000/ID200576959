@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ID200576959", "ID200576959\ID200576959.csproj", "{5F64BDF2-C044-466D-BD52-90BF6F962803}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{76C02006-DF0E-413B-A971-648E56FFF8A6}"
+	ProjectSection(SolutionItems) = preProject
+		Student.cs = Student.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{D782A862-60A0-45DE-A5C4-458401585547}"
+	ProjectSection(SolutionItems) = preProject
+		ApplicationDbContext.cs = ApplicationDbContext.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F64BDF2-C044-466D-BD52-90BF6F962803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F64BDF2-C044-466D-BD52-90BF6F962803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F64BDF2-C044-466D-BD52-90BF6F962803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F64BDF2-C044-466D-BD52-90BF6F962803}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {570BB8CE-0599-4A8C-9FCF-01F1EB10412B}
+	EndGlobalSection
+EndGlobal
